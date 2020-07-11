@@ -1,6 +1,6 @@
 var sampleData
 
-d3.json("../samples.json").then((data) => {
+d3.json("samples.json").then((data) => {
     let selectTag = d3.select("#selDataset");    
     data.names.forEach(element => selectTag.append('option').attr('value', element).text(element));
     sampleData = data;
