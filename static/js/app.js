@@ -36,7 +36,7 @@ function createBar(data){
         orientation: 'h'
       }];
       let layout = {
-        title: 'Numbeer of bacteria per IF'
+        title: 'Number of bacteria per IF'
       };
       Plotly.newPlot('bar', trace, layout);
 }
